@@ -1,0 +1,106 @@
+
+
+
+body {
+    font-size: 14px;
+    font-family: "Speedee", arial, helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+}
+
+#logo {
+    width: 6em;
+}
+#menu{
+    clear: both;
+    margin-top: 1.2em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+    color: #363636;
+}
+
+.buttom-1 {
+    border: .1px solid #363636;
+    margin-right: 4%;
+    margin-top: 6.3%;
+    float: right;
+    background-color: #ffbc0d;
+    padding: 0.4em 2em;
+    border-radius: 0.3em;
+    font-size: 11px;
+}
+.buttom-2 {
+    border: .1px solid #363636;
+    background-color: #ffbc0d;
+    padding: 0.4em 2em;
+    border-radius: 0.3em;
+    font-size: 11px;
+    width: 7em;
+}
+
+.figura {
+    width: 2.2em;
+    display: flex;
+    float: left;
+}
+
+a span {
+    font-size: 12px;
+    display: block;
+    margin: auto;
+}
+.catalogo{
+    width: 100%;
+    margin-top: 2em;
+}
+.cabecalho{
+    clear: both;display: inline;
+}
+.menu-animation:hover{
+    border-bottom: 2.5px solid #ffbc0d;
+}
+.cardapio{
+    width: 39%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin: 2% 5%;
+
+    float: left;
+}
+.cardapio span{
+    margin-top: .3em;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #363636;
+}
+.cardapio a{
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: .3em;
+}
+.menu-img{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+footer{
+    clear: both;
+    background-color: #ffbc0d;
+    height: 4em;
+}
+footer h1{
+    text-align: center;
+}
